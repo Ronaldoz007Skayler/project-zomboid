@@ -1,0 +1,126 @@
+body {
+    color: Black;
+    background: darkgreen;
+    margin: 0px;
+    font-family: "rubik", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px darkblue;
+    padding: 20px;
+    font-size: 50px;
+    color: darkred;
+}
+
+.chamada {
+    background-color: rgb(23, 141, 104);
+    padding-bottom: 70px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin: 1%
+}
+
+h1 {
+    font-size: 55px;
+}
+
+p {
+    font-size: 30px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 100px;
+}
+
+.categoria img {
+    opacity: 0.7;
+    height: 250px;
+}
+
+.categoria img:hover {
+    opacity: 1.0;
+    border: 5px solid red
+}
+
+.dicas {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 100px;
+}
+
+.dicas img {
+    opacity: 0.7;
+    height: 250px;
+}
+
+.dicas img:hover {
+    opacity: 1.0;
+    border: 5px solid red
+}
+
+.categoria-historia {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.historia {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 100px;
+}
+
+.historia img {
+    opacity: 0.7;
+    height: 250px;
+}
+
+.historia img:hover {
+    opacity: 1.0;
+    border: 5px solid red
+}
+
+.evolucao {
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 100px;
+    color: rgb(31, 31, 90);
+}
+
+.evolution {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 100px;
+}
+
+.evolution img {
+    opacity: 0.7;
+    height: 250px;
+}
+
+.evolution img:hover {
+    opacity: 1.0;
+    border: 5px solid red
+}
+
+.final {
+    font-size: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 100px;
+    color: darkred;
+}
